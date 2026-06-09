@@ -18,9 +18,9 @@
 
 ### 🧠 `whoami`
 
-> **EN** — AI engineer who turns large language models into **autonomous agents** that can *plan, call tools, run code in sandboxes, search knowledge bases, and remember across sessions*. By day I ship a production LLM-agent platform; by night I poke at multimodal models and adversarial ML.
+> **EN** — AI engineer who turns large language models into **autonomous agents** that can *plan, call tools, run code in sandboxes, search knowledge bases, and remember across sessions*. By day I ship a production LLM-agent platform; by night I dig into **agent-harness research**.
 >
-> **中文** — AI 工程师，专注把大语言模型变成会**自己规划、调工具、跑沙盒代码、查知识库、跨会话记忆**的智能体。白天打磨生产级 LLM Agent 平台，晚上研究多模态与对抗机器学习。
+> **中文** — AI 工程师，专注把大语言模型变成会**自己规划、调工具、跑沙盒代码、查知识库、跨会话记忆**的智能体。白天打磨生产级 LLM Agent 平台，晚上研究 Agent Harness 相关 Research。
 
 ```python
 class LuhaoZhu:
@@ -29,7 +29,7 @@ class LuhaoZhu:
         self.company     = "CCAI"
         self.location    = "Ningbo, China 🇨🇳"
         self.building    = ["ReAct agents", "MCP tool ecosystem", "sandboxed code-exec"]
-        self.researching = ["multimodal LLMs", "adversarial ML", "computer vision"]
+        self.researching = ["agent harness design", "tool-use & planning", "eval & reliability"]
         self.motto       = "Make the model do the work — reliably, at scale."
 
     def current_focus(self) -> list[str]:
